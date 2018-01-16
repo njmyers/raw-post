@@ -32,7 +32,7 @@ function add_raw_post_content() {
 function get_raw_content( $object ) {
     $post_id = $object['id'];
 
-    $converter = new HtmlConverter();
+    $converter = new HtmlConverter(array('strip_tags' => true));
 
     $post_data = get_post( $post_id, 'ARRAY_A' );
     $raw_fields = array(
