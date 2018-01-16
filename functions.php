@@ -10,7 +10,12 @@ Author: Nick Myers
 
  */
 
-require 'vendor/autoload.php';
+$autoload_path = __DIR__ . '/vendor/autoload.php';
+
+if ( file_exists( $autoload_path ) ) {
+    require_once( $autoload_path );
+}
+
 use League\HTMLToMarkdown\HtmlConverter;
 
 add_action( 'rest_api_init', 'add_raw_post_content');
