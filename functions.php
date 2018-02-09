@@ -5,7 +5,7 @@
 Plugin Name: Raw Post Content
 Plugin URI: http://github.com:njmyers/raw-post
 Description: Add wordpress raw post and page unrendered and markdown content to wp-json 
-Version: 0.1
+Version: 0.1.4
 Author: Nick Myers
 
  */
