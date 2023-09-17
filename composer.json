@@ -3,7 +3,7 @@
 	"license": "MIT",
 	"type": "wordpress-plugin",
 	"require": {
-		"composer/installers": "^1.0",
+		"composer/installers": "^2.2",
 		"league/html-to-markdown": "^4.6"
 	},
 	"description": "Add wordpress raw unrendered content to wp-json",
